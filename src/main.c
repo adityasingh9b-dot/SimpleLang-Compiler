@@ -3,9 +3,7 @@
 #include "../include/parser.h"
 
 int main() {
-   
-   // main function yaha se start ho raha hai, be careful ...........................
-   
+
     FILE *file = fopen("input.txt", "r");
     if (!file) {
         perror("Could not open input.txt");
